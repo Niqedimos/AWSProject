@@ -21,7 +21,11 @@ const Resume: FC = memo(() => {
           ))}
         </ResumeSection>
         <ResumeSection title="Skills">
-          <p className="pb-8">Here you can show a snapshot of your skills to show off to employers</p>
+          <p className="pb-8">As a Full Stack Software Engineer, I bring a diverse skill set, 
+          encompassing Java, Python, Spring, Node.js, React, MongoDB, PostgreSQL, AWS, Docker, 
+          Jenkins, Git, and Agile methodologies. This expertise extends to both front-end and
+           back-end development, and I also possess essential soft skills such as leadership,
+            problem-solving, and collaboration.</p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
