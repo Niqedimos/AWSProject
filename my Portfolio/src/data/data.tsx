@@ -45,7 +45,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  description: "Example site built with Niqesimos react resume template",
 };
 
 /**
@@ -86,7 +86,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://docs.google.com/document/d/1CPi6q5bwdiCBILZRNbxq_1NDL0u-Tz_k_WoXhx0juoI/edit?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -144,7 +144,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 8,
       },
       {
         name: 'Typescript',
@@ -161,11 +161,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Java',
-        level: 8,
+        level: 10,
       },
       {
         name: 'Spring Boot',
-        level: 8,
+        level: 10,
       },
       {
         name: 'Python',
@@ -174,19 +174,19 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'AWS',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'EC2',
+        level: 6,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'S3',
+        level: 6,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Lambda',
+        level: 6,
       },
     ],
   },
@@ -229,37 +229,37 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Mobile Banking App',
     description: 'Create a user-friendly mobile banking application that allows customers to access their accounts, make transactions, and receive notifications on their smartphones.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage6,
   },
   {
     title: 'Anti-Fraud System',
     description: 'Build a fraud detection system that uses machine learning algorithms to analyze transaction data and detect suspicious activities, helping banks prevent fraudulent transactions.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage7,
   },
   {
     title: 'Loan Approval Automation',
     description: 'Develop a loan approval system that automates the loan application process, including credit scoring and risk assessment, to expedite approvals and enhance customer experience.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage8,
   },
   {
     title: 'ATM Network Optimization',
     description: 'Implement an ATM network optimization project to determine the ideal locations for ATMs, ensuring efficient cash management and convenient access for customers.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage9,
   },
   {
     title: 'Credit Scoring and Risk Assessment Model',
     description: 'Design a credit scoring and risk assessment model that uses machine learning to evaluate an applicants creditworthiness, aiding banks in making informed lending decisions while minimizing default risks.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage10,
   },
   {
     title: 'Customer Relationship Management (CRM) System',
     description: 'Create a CRM system tailored for the banking sector, allowing banks to manage customer interactions, track leads, and personalize services, ultimately improving customer satisfaction and retention.',
-    url: 'https://reactresume.com',
+    url: '',
     image: porfolioImage11,
   },
 ];
@@ -335,18 +335,18 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'minalu Bantihun',
-      text: ' nick is a tech wizard. his work on our web app was nothing short of extraordinary. They transformed our vision into a seamless, user-friendly reality. Their skills in React and responsive design are top-notch. If you want excellence, work with nick."',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      text: ' "nick is a tech wizard. his work on our web app was nothing short of extraordinary. They transformed our vision into a seamless, user-friendly reality. Their skills in React and responsive design are top-notch. If you want excellence, work with nick."',
+      image: '',
     },
     {
       name: 'Nrajan Karki',
-      text: 'Coding with Niqedimos is a game-changer. Their Java and Spring expertise led to a 50% performance boost on our project. Plus, they are a fantastic team player, always up for a challenge. Highly recommended!',
-      image: '../images/Nirajan.jpeg',
+      text: '"Coding with Niqedimos is a game-changer. His Java and Spring expertise led to a 50% performance boost on our project. Plus, He is a fantastic team player, always up for a challenge. Highly recommended!"',
+      image: '',
     },
     {
       name: 'Hafteab Weldemariam',
-      text: 'Niqedimos is a coding maestro. They joined our team and quickly became the go-to person for solving complex issues. his deep knowledge of Python and exceptional problem-solving skills saved us countless hours. [Your Name] is a real asset to any project.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      text: '"Niqedimos is a coding maestro. He joined our team and quickly became the go-to person for solving complex issues. his deep knowledge of Python and exceptional problem-solving skills saved us countless hours. Niqedimos is a real asset to any project."',
+      image: '',
     },
   ],
 };
@@ -377,7 +377,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Github,
       text: 'niqedimosghe584@mail.com',
-      href: 'https://github.com/Niqedimos/AWSProject',
+      href: 'https://github.com/tbakerx',
     },
   ],
 };
